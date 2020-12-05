@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BagE\'s demo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="components">
+        <item>Core Components</item>
+        <item>Storage Devices</item>
+        <item>Accessories</item>
+    </string-array>
+
+    <string-array name="gaming">
+        <item>Computer Gaming</item>
+        <item>Console Gaming</item>
+        <item>Digital Games</item>
+        <item>Legacy Gaming</item>
+    </string-array>
+
+    <string-array name="headphones">
+        <item>Headsets</item>
+        <item>Microphones</item>
+        <item>Sound Card</item>
+        <item>Speakers</item>
+    </string-array>
+
+    <string-array name="computerSystem">
+        <item>Desktop Systems</item>
+        <item>Laptops/Notebooks</item>
+        <item>Gaming Laptops</item>
+        <item>Peripherals</item>
+        <item>Accessories</item>
+    </string-array>
+</resources>

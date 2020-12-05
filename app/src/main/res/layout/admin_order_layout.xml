@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#2694C4">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/txt_admin_order_layout_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="User" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_margin="20dp">
+
+
+        <TextView
+            android:id="@+id/txt_admin_order_layout_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Address" />
+
+        <TextView
+            android:id="@+id/txt_admin_order_layout_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_admin_order_layout_address"
+            android:gravity="center"
+            android:hint="Phone Number" />
+
+        <TextView
+            android:id="@+id/txt_admin_order_layout_zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_admin_order_layout_phone"
+            android:gravity="center"
+            android:hint="Zip" />
+        <TextView
+            android:id="@+id/txt_admin_order_layout_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_admin_order_layout_zip"
+            android:gravity="center"
+            android:hint="City" />
+        <TextView
+            android:id="@+id/txt_admin_order_layout_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_admin_order_layout_city"
+            android:gravity="center"
+            android:hint="Date" />
+        <TextView
+            android:id="@+id/txt_admin_order_layout_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_admin_order_layout_date"
+            android:gravity="center"
+            android:hint="Time" />
+
+
+    </RelativeLayout>
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:id="@+id/txt_admin_order_layout_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:gravity="center"
+            android:hint="Total Cost" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

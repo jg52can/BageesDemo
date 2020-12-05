@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminregister"
+    android:background="@drawable/screen1">
+
+    <LinearLayout
+        android:id="@+id/admRegLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="170dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Bag your best choices"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/regAdmUserName"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#fff"
+            android:background="@drawable/input_design"
+            android:ems="10"
+            android:hint="   Full Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/regAdmUserAge"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_design"
+            android:ems="10"
+            android:textColor="#fff"
+            android:hint="   Age"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/regAdmUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_design"
+            android:ems="10"
+            android:textColor="#fff"
+            android:hint="   Email Address"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/regAdmUserPassword"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/input_design"
+            android:ems="10"
+            android:textColor="#fff"
+            android:hint="   Password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btnAdmRegister"
+            android:background="@drawable/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Register" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/proBarAdmRegister"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/admRegLinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

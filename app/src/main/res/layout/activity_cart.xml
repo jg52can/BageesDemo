@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cartActivity">
+
+    <TextView
+        android:id="@+id/txtCartActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total price : "
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCartActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtCartActivity"
+        android:layout_above="@+id/relative2CartActivity"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/relative2CartActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnCartActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

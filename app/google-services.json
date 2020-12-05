@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "444908644796",
+    "firebase_url": "https://bagees-demo.firebaseio.com",
+    "project_id": "bagees-demo",
+    "storage_bucket": "bagees-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444908644796:android:d327b3e881dacb6cb663b9",
+        "android_client_info": {
+          "package_name": "com.example.bageesdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444908644796-0t5omgag2cpqjphaeb2evgjv258b2eu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCINdWeQ2BcL8F5FiF8JWRA-Xa0bwKCxgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444908644796-0t5omgag2cpqjphaeb2evgjv258b2eu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

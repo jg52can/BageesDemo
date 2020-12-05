@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminhome"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/screen2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:text="   Add a new product   "
+                android:textColor="#fff"
+                android:background="@drawable/input_design"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center|top"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            >
+
+        <TextView
+            android:id="@+id/txtComputer"
+            android:background="@drawable/computersystems"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="30sp"
+            android:autofillHints="Computer Systems"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/txtComponents"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/components"
+                android:textSize="30sp"
+                android:autofillHints="Components"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center|top"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/txtGaming"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gamingq"
+                android:textSize="30sp"
+                android:autofillHints="Gaming"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/txtHeadphones"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/headphones"
+                android:textSize="30sp"
+                android:autofillHints="Headphones"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:orientation="vertical"
+            android:layout_gravity="center|bottom">
+
+            <Button
+                android:id="@+id/btn_admin_view_products"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons"
+                android:text="   View Products   "/>
+
+            <Button
+                android:id="@+id/btn_admin_home_edit_prodcuts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons"
+                android:text="   Edit Products   "/>
+
+          <Button
+              android:id="@+id/btn_admin_home_check_order"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#fff"
+              android:layout_marginBottom="10dp"
+              android:background="@drawable/buttons"
+              android:text="   Check Orders   "/>
+            <Button
+                android:id="@+id/btn_admin_home_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:background="@drawable/buttons"
+                android:text="   Log Out   "/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
